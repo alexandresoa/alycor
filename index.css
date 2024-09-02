@@ -4,12 +4,14 @@ body{
 
 h1{
   text-align: center;
-color:rgb(30, 29, 29);
+color:rgb(22, 22, 22);
+text-decoration: underline;
+  text-decoration-color: #0a0a09; /* Sublinhado vermelho */
 }
 h2{
   text-align: center;
   
-  color:white;
+  color:rgb(14, 14, 14);
 
 }
 h3{
@@ -17,15 +19,16 @@ text-align: center;
 color: rgb(24, 23, 23);
 }
 body{
-  background-color: blueviolet;
+  background-color: rgb(34, 87, 1);
+ background-image: url("img/images\ \(1\).jpg");;
 }
 
 a{
   display:flex;
   justify-content:center ;
   line-height: 46px;
-  background-color: rgba(29, 28, 27, 0.891);
-  color: aqua;
+  background-color: rgba(127, 200, 32, 0.891);
+  color: rgb(25, 156, 156);
   padding: 0 16px;
   border-radius: 25px;
   text-decoration: none;
@@ -45,16 +48,52 @@ img{
   width: 690px;
   height: 690px;
   object-fit:cover;
-  border-radius: 200px;
+  border-radius: 20px;
+}
+.oficiais{
+  color:rgb(14, 14, 14);
+  background-color:rgb(215, 206, 35);
+}
+.coes{
+  color: rgb(26, 25, 25);
 }
 
+.imgg{
+  background-color: #aaa;
+  border-radius: 50%;
+  width: 500px;
+  height: 500px;
+  overflow: hidden;
+  position: relative;
+}
 
-
-
-
-
+.pagina{
+  background-color:rgb(255, 251, 0);
+}
+.whatsapp{
+  background-color:green;
+}
+.instagram{
+  background-color:rgba(221, 103, 221, 0.884);
+}
+.youtube{
+  background-color: red;
+}
+.facebook{
+  background-color: blue;
+}
+.mapacultural{
+  background-color: white;
+}
   
 
-
+.luiz{
+  background-color: #aaa;
+  border-radius: 50%;
+  width: 500px;
+  height: 500px;
+  overflow: hidden;
+  position: relative;
+}
   
  
